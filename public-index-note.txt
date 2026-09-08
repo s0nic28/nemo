@@ -1,0 +1,2 @@
+NEMO v0.1 source project.
+The app entry point is index.html and the Vite app lives in src/.
