@@ -6,3 +6,5 @@ dist-server
 coverage
 .DS_Store
 *.log
+
+backup-before-nemo-v03-*

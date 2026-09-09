@@ -23,13 +23,13 @@
     "zod": "latest"
   },
   "devDependencies": {
+    "@eslint/js": "latest",
     "@types/express": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react": "latest",
     "eslint": "latest",
-    "@eslint/js": "latest",
     "typescript": "latest",
     "typescript-eslint": "latest",
     "vite": "latest",

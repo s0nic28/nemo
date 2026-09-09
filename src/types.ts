@@ -1,5 +1,27 @@
-export type NemoMood = 'neutral' | 'happy' | 'curious' | 'thinking' | 'sleepy' | 'surprised' | 'bored' | 'excited'
-export type NemoState = 'IDLE' | 'CURIOUS' | 'LISTENING' | 'THINKING' | 'SPEAKING' | 'HAPPY' | 'SLEEPY' | 'SURPRISED' | 'BORED' | 'EXCITED' | 'ERROR'
+﻿export type NemoMood =
+  | 'neutral'
+  | 'happy'
+  | 'curious'
+  | 'thinking'
+  | 'sleepy'
+  | 'surprised'
+  | 'bored'
+  | 'excited'
+
+export type NemoState =
+  | 'IDLE'
+  | 'CURIOUS'
+  | 'LISTENING'
+  | 'THINKING'
+  | 'SPEAKING'
+  | 'HAPPY'
+  | 'SLEEPY'
+  | 'SURPRISED'
+  | 'BORED'
+  | 'EXCITED'
+  | 'PLAYING'
+  | 'DANCING'
+  | 'ERROR'
 
 export type ChatMessage = {
   id: string
