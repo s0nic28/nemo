@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
-import { Github, Mic, MicOff, Moon, MousePointer2, Sparkles, Volume2, VolumeX } from 'lucide-react'
+﻿import { useEffect, useMemo, useRef, useState } from 'react'
+import { ExternalLink, Mic, MicOff, Moon, MousePointer2, Sparkles, Volume2, VolumeX } from 'lucide-react'
 import Nemo from './components/Nemo'
 import Chat from './components/Chat'
 import type { ChatMessage, ChatResponse, Mood, NemoMood, NemoState } from './types'
@@ -133,7 +133,7 @@ export default function App() {
         <div className="brand"><div className="brand-mark">N</div><div><strong>NEMO</strong><span>tiny browser creature</span></div></div>
         <div className="top-actions">
           <div className="presence"><i /> {offline ? 'offline' : 'local systems online'}</div>
-          <a href="https://github.com/s0nic28/nemo" target="_blank" rel="noreferrer" className="icon-btn" title="NEMO on GitHub"><Github size={17} /></a>
+          <a href="https://github.com/s0nic28/nemo" target="_blank" rel="noreferrer" className="icon-btn" title="NEMO on GitHub"><ExternalLink size={17} /></a>
         </div>
       </header>
 
@@ -165,3 +165,4 @@ export default function App() {
     </main>
   )
 }
+
